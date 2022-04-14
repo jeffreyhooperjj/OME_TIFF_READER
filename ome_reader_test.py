@@ -16,6 +16,6 @@ matches = re.findall(r'Name="(.+?)"', xml)
 for match in matches:
 	print(match)
 
-print(xml)
+#print(xml)
 
 javabridge.kill_vm()
